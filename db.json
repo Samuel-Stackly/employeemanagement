@@ -1,0 +1,92 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "fullName": "Ananya Sharma",
+      "email": "ananya.sharma@rosterly.io",
+      "phone": "+91 98765 43210",
+      "department": "Engineering",
+      "role": "Senior Frontend Engineer",
+      "joiningDate": "2022-03-14",
+      "status": "Active",
+      "createdAt": "2022-03-14T09:00:00.000Z"
+    },
+    {
+      "id": "2",
+      "fullName": "Rohan Verma",
+      "email": "rohan.verma@rosterly.io",
+      "phone": "+91 91234 56789",
+      "department": "Design",
+      "role": "Product Designer",
+      "joiningDate": "2021-11-02",
+      "status": "Active",
+      "createdAt": "2021-11-02T09:00:00.000Z"
+    },
+    {
+      "id": "3",
+      "fullName": "Meera Iyer",
+      "email": "meera.iyer@rosterly.io",
+      "phone": "+91 99887 66554",
+      "department": "Human Resources",
+      "role": "HR Business Partner",
+      "joiningDate": "2020-07-21",
+      "status": "Active",
+      "createdAt": "2020-07-21T09:00:00.000Z"
+    },
+    {
+      "id": "4",
+      "fullName": "Karthik Reddy",
+      "email": "karthik.reddy@rosterly.io",
+      "phone": "+91 90123 45678",
+      "department": "Sales",
+      "role": "Regional Sales Manager",
+      "joiningDate": "2023-01-09",
+      "status": "Inactive",
+      "createdAt": "2023-01-09T09:00:00.000Z"
+    },
+    {
+      "id": "5",
+      "fullName": "Priya Nair",
+      "email": "priya.nair@rosterly.io",
+      "phone": "+91 97654 32109",
+      "department": "Finance",
+      "role": "Financial Analyst",
+      "joiningDate": "2022-09-18",
+      "status": "Active",
+      "createdAt": "2022-09-18T09:00:00.000Z"
+    },
+    {
+      "id": "6",
+      "fullName": "Aditya Kapoor",
+      "email": "aditya.kapoor@rosterly.io",
+      "phone": "+91 96543 21098",
+      "department": "Product",
+      "role": "Product Manager",
+      "joiningDate": "2021-05-30",
+      "status": "Active",
+      "createdAt": "2021-05-30T09:00:00.000Z"
+    },
+    {
+      "id": "7",
+      "fullName": "Sneha Joshi",
+      "email": "sneha.joshi@rosterly.io",
+      "phone": "+91 95432 10987",
+      "department": "Marketing",
+      "role": "Content Strategist",
+      "joiningDate": "2023-06-12",
+      "status": "Inactive",
+      "createdAt": "2023-06-12T09:00:00.000Z"
+    },
+    {
+      "id": "8",
+      "fullName": "Vikram Singh",
+      "email": "vikram.singh@rosterly.io",
+      "phone": "+91 94321 09876",
+      "department": "Operations",
+      "role": "Operations Lead",
+      "joiningDate": "2019-10-04",
+      "status": "Active",
+      "createdAt": "2019-10-04T09:00:00.000Z"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+  }
+  body {
+    @apply bg-paper text-ink font-sans;
+  }
+  :focus-visible {
+    outline: 2px solid #0F6E63;
+    outline-offset: 2px;
+  }
+}
+
+@layer components {
+  /* Filing-tab signature element used on department badges & sidebar */
+  .file-tab {
+    position: relative;
+    border-radius: 3px;
+  }
+  .file-tab::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 3px;
+    border-radius: 3px 0 0 3px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
