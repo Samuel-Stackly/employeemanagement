@@ -1,3 +1,4 @@
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +11,7 @@
     @apply bg-paper text-ink font-sans;
   }
   :focus-visible {
-    outline: 2px solid #0F6E63;
+    outline: 2px solid #4B44D6;
     outline-offset: 2px;
   }
 }

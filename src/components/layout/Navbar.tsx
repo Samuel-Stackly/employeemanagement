@@ -1,3 +1,5 @@
+
+
 interface NavbarProps {
   title: string;
   subtitle?: string;
@@ -13,7 +15,7 @@ export default function Navbar({ title, subtitle, onMenuClick }: NavbarProps) {
   });
 
   return (
-    <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-paper/95 px-4 py-4 backdrop-blur sm:px-6">
+    <header className="sticky top-0 z-30 flex items-center justify-between border-b border-line bg-white/70 px-4 py-4 backdrop-blur sm:px-6">
       <div className="flex items-center gap-3">
         <button
           onClick={onMenuClick}

@@ -1,6 +1,7 @@
+
 /** @type {import('tailwindcss').Config} */
 export default {
-  content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
+  content: ['./index.html', './src/*/.{js,ts,jsx,tsx}'],
   theme: {
     extend: {
       fontFamily: {
@@ -8,33 +9,33 @@ export default {
         mono: ['"IBM Plex Mono"', 'ui-monospace', 'monospace'],
       },
       colors: {
-        paper: '#F7F5EF',
+        paper: '#fbfbf7',
         ink: {
-          DEFAULT: '#1B2430',
-          soft: '#3D4757',
-          faint: '#8891A0',
+          DEFAULT: '#1A1D29',
+          soft: '#4B5165',
+          faint: '#9298AA',
         },
         teal: {
-          50: '#EAF3F1',
-          100: '#CFE4E0',
-          400: '#2B8C7E',
-          500: '#0F6E63',
-          600: '#0B5A50',
-          700: '#08453D',
+          50: '#EEF0FC',
+          100: '#DDE1F9',
+          400: '#6C63FF',
+          500: '#4B44D6',
+          600: '#3730A3',
+          700: '#2A2478',
         },
         gold: {
-          50: '#FBF2DF',
-          400: '#F4B942',
-          500: '#D9A24B',
-          600: '#B4813A',
+          50: '#FEF6E7',
+          400: '#F2B84B',
+          500: '#E2A130',
+          600: '#B87F1F',
         },
         rust: {
-          50: '#FBEAE7',
-          400: '#D9695C',
-          500: '#C4463C',
-          600: '#9E332A',
+          50: '#FDEDEC',
+          400: '#F0776A',
+          500: '#E14F41',
+          600: '#B93A2E',
         },
-        line: '#E3DFD4',
+        line: '#E4E7EE',
       },
       boxShadow: {
         card: '0 1px 2px rgba(27, 36, 48, 0.06), 0 1px 0 rgba(27, 36, 48, 0.04)',

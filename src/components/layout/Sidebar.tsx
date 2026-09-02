@@ -1,3 +1,4 @@
+
 import { NavLink } from 'react-router-dom';
 
 const navItems = [
@@ -7,14 +8,14 @@ const navItems = [
 
 export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
   return (
-    <aside className="flex h-full w-60 shrink-0 flex-col border-r border-line bg-white">
-      <div className="flex items-center gap-2.5 border-b border-line px-5 py-5">
-        <div className="flex h-8 w-8 items-center justify-center rounded-sm bg-teal-500 font-mono text-xs font-bold text-paper">
+    <aside className="flex h-full w-60 shrink-0 flex-col bg-gradient-to-b from-teal-600 to-teal-700">
+      <div className="flex items-center gap-2.5 border-b border-white/10 px-5 py-5">
+        <div className="flex h-8 w-8 items-center justify-center rounded-sm bg-gold-400 font-mono text-xs font-bold text-teal-700">
           R
         </div>
         <div>
-          <p className="text-sm font-bold leading-tight text-ink">Rosterly</p>
-          <p className="font-mono text-[10px] uppercase tracking-wider text-ink-faint">
+          <p className="text-sm font-bold leading-tight text-white">Rosterly</p>
+          <p className="font-mono text-[10px] uppercase tracking-wider text-teal-100">
             Personnel Records
           </p>
         </div>
@@ -30,12 +31,12 @@ export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
             className={({ isActive }) =>
               `file-tab flex items-center gap-3 rounded-sm px-3 py-2.5 text-sm font-medium transition-colors ${
                 isActive
-                  ? 'bg-teal-50 text-teal-700'
-                  : 'text-ink-soft hover:bg-black/5 hover:text-ink'
+                  ? 'bg-white/15 text-white'
+                  : 'text-teal-100 hover:bg-white/10 hover:text-white'
               }`
             }
             style={({ isActive }) =>
-              isActive ? { boxShadow: 'inset 3px 0 0 #0F6E63' } : undefined
+              isActive ? { boxShadow: 'inset 3px 0 0 #F2B84B' } : undefined
             }
           >
             <Icon />
@@ -44,8 +45,8 @@ export default function Sidebar({ onNavigate }: { onNavigate?: () => void }) {
         ))}
       </nav>
 
-      <div className="border-t border-line px-5 py-4">
-        <p className="font-mono text-[10px] uppercase tracking-wider text-ink-faint">
+      <div className="border-t border-white/10 px-5 py-4">
+        <p className="font-mono text-[10px] uppercase tracking-wider text-teal-100">
           JSON Server · localhost:4000
         </p>
       </div>

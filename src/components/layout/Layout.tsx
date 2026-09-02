@@ -1,3 +1,7 @@
+
+Layout.tsx
+
+
 import { useState, type ReactNode } from 'react';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
@@ -12,7 +16,7 @@ export default function Layout({ title, subtitle, children }: LayoutProps) {
   const [drawerOpen, setDrawerOpen] = useState(false);
 
   return (
-    <div className="flex min-h-screen bg-paper">
+    <div className="flex min-h-screen bg-gradient-to-br from-teal-50 via-paper to-gold-50">
       <div className="hidden lg:block">
         <Sidebar />
       </div>
