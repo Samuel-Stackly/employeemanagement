@@ -1,7 +1,3 @@
-
-Layout.tsx
-
-
 import { useState, type ReactNode } from 'react';
 import Sidebar from './Sidebar';
 import Navbar from './Navbar';
